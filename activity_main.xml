@@ -17,10 +17,10 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="415dp"
-        android:layout_height="431dp"
+        android:layout_width="419dp"
+        android:layout_height="260dp"
         app:srcCompat="@android:drawable/btn_star_big_on"
-        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteX="-5dp"
         tools:layout_editor_absoluteY="5dp" />
 
     <TextView
@@ -31,5 +31,13 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         tools:layout_editor_absoluteX="87dp"
         tools:layout_editor_absoluteY="639dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="159dp"
+        android:layout_height="60dp"
+        android:text="Next"
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="520dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
